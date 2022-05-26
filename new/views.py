@@ -15,7 +15,7 @@ def index(request):
         list.append(likes)
     print(list,"get_likkkkkk")                        
     print(get_like, "likesss")
-    # print(post_comment, 'hfdhfdhdfh') 
+    print(post_comment, 'hfdhfdhdfh') 
     context = {"fetchdata":fetchdata, "post_comment":post_comment}
     return render(request, "index.html", context)
      
